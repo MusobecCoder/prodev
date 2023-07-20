@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #E5E5E5;
+}
+.container {
+    width: 375px;
+    height: 812px;
+    background: linear-gradient(to top left, white, rgba(255, 166, 0, 0.232));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 130px 30px 50px 30px;
+    gap: 55px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+    align-items: center;
+}
+.social_media {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    gap: 20px;
+}
+.social_media a {
+    height: max-content;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+.google {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    background-color: orange;
+    border-radius: 15px;
+    padding: 15px;
+    height: 100%;
+}
+.facebook {
+    grid-column: 2 / 3;
+    padding: 15px;
+    grid-row: 1 / 2;
+    border: 1px solid rgba(0, 0, 0, 0.63);
+    border-radius: 15px;
+    height: 100%;
+}
+.twitter {
+    padding: 15px;
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    border: 1px solid rgba(0, 0, 0, 0.63);
+    border-radius: 15px;
+    height: 100%;
+}
+p {
+    color: rgba(0, 0, 0, 0.639);
+}
+.inputs {
+    display: flex; 
+    width: 100%;
+    gap: 15px;
+    flex-direction: column;
+}
+input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.392);
+}
+.submit {
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+input:focus {
+    outline: none;
+    border: 1px solid orange;
+}
+.submit:focus {
+    border: none;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.now_user {
+    display: flex;
+    gap: 5px;
+}
+footer a {
+    color: orange;
+}
+.skip {
+    width: 100%;
+    padding: 10px 30px;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid orange;
+}

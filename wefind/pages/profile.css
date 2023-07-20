@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #E5E5E5;
+}
+.container {
+    width: 375px;
+    height: 812px;
+    background: linear-gradient(to top left, white, rgba(255, 166, 0, 0.232));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 30px 0px 30px;
+    gap: 1rem;
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: max-content;
+    align-items: center;
+}
+.location {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.location p {
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.601);
+}
+.story_bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: max-content;
+    align-items: center;
+}
+section {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.grade {
+    width: 100%;
+    gap: 10px;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0px;
+    bottom: 20px;
+}
+.comment_to_dubby {
+    width: max-content;
+    height: max-content;
+    color: white;
+    position: absolute;
+    bottom: 100px;
+    left: 70px;
+}
+.comment_to_dubby h2 {
+    font-size: 17.13px;
+}
+.comment_to_dubby p {
+    font-size: 10.28px;
+    font-weight: 100;
+}
+.menu_bar {
+    width: 100%;
+    height: max-content;
+    background-color: white;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    align-items: center;
+}
+.create_menu {
+    transition: all .5s ease;
+}
+.create_menu:hover{
+    transform: rotate(180deg);
+}
